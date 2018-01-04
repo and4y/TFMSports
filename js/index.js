@@ -1,7 +1,7 @@
 function get_time_left() {
  
   var today = new Date().getTime(); //today's date
-  var launch_date = new Date("March 20 2018").getTime();
+  var launch_date = new Date("March 22 2018 16:00:00").getTime();
   var _seconds = 1000;
   var _minutes = _seconds * 60;
   var _hours = _minutes * 60;
