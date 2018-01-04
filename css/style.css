@@ -893,6 +893,113 @@ p.vel{
 	height: 100%;
 }
 /***** Winston *****/
+html, body {
+  height: 100%;
+  width:100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+  height: 90%;
+  width: 100%;
+}
+
+.vcenter {
+ display:flex;
+ justify-content:center;
+ align-items: center;
+ flex-flow: column;
+}
+
+.intro {
+  font-size: 24px;
+  padding: 10px 0 5px;
+}
+
+.redirect {
+  font-size: 15px;
+  padding: 0 0 30px;
+}
+
+.timer .day-wrapper,
+.timer .hour-wrapper,
+.timer .minute-wrapper,
+.timer .second-wrapper {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  padding: 0 10px 0;
+  font-size: 13.5px;
+}
+
+#days,
+#hours,
+#minutes,
+#seconds {
+  font-size: 50px;
+  opacity: 0;
+  -webkit-animation: reveal ease-in 1;
+  animation: reveal ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+
+}
+
+#days {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+#hours {
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+#minutes {
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+#seconds {
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+}
+
+.blue-label,
+.blue:hover {
+  color: #4285F4;
+}
+
+.green-label,
+.green:hover {
+  color: #0F9D58;
+}
+
+.yellow-label,
+.yellow:hover {
+  color: #F4B400;
+}
+
+.red-label,
+.red:hover {
+  color: #DB4437;
+}
+
+@keyframes reveal {
+  from {opacity: 0;}
+  to{opacity: 1;}
+}
+
+@-webkit-keyframes reveal {
+  from {opacity: 0;}
+  to{opacity: 1;}
+}
 /*-----------------*/
 figure.effect-winston {
 	text-align: left;
@@ -1087,13 +1194,6 @@ h3.title-w3{
 }
 
 /*-- //contact --*/
-
-/*-- map --*/
-.map iframe {
-    width: 100%;
-    min-height: 400px;
-}
-/*-- //map --*/
 
 /*-- //main --*/
 /*--//footer--*/
