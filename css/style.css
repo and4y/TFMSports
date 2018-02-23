@@ -178,6 +178,8 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
 	-o-background-size: cover;		
 	-moz-background-size: cover;
 	min-height:794px;
+	 width: 100%;
+
 }
 .w3layouts-banner-top.t2{
     background: url(../contant/images/banner/banner2.jpg) no-repeat 0px 0px;
@@ -395,7 +397,7 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
     background-clip: padding-box;
     border: 1px solid #999;
     border: 1px solid rgba(0, 0, 0, .2);
-    border-radius: 0px!important;
+    border-radius: 0px !important;
     outline: 0;
     -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
     box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
