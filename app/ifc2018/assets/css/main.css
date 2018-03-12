@@ -155,12 +155,12 @@ a:after {
 #headerwrap {
 	background: url(../img/header-bg.jpg) no-repeat center top;
 	margin-top: 60px;
-	padding-top:140px;
+	padding-top:135px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 500px;
-	width: 100% ;
+	min-height: 450px;
+	width: 100% 100% ;
 	
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
