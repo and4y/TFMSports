@@ -97,7 +97,7 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
     z-index: 99;
     text-align: center;
     left: 0;
-    width: 1024px;
+    width: 100%;
 }
 .agileits-banner-info h3 {
     color: #fff;
@@ -172,12 +172,12 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
 /*-- banner-top --*/
 .w3layouts-banner-top{
     background: url(../contant/images/banner/banner1.jpg) no-repeat 0px 0px;
-    background-size: 100% 100%;	
-	-webkit-background-size: 100% 100%;	
-	-moz-background-size: 100% 100%;
-	-o-background-size: 100% 100%;		
-	-moz-background-size: 100% 100%;
-	min-height:420px;
+    background-size: cover;	
+	-webkit-background-size: cover;	
+	-moz-background-size: cover;
+	-o-background-size: cover;		
+	-moz-background-size: cover;
+	min-height:794px;
 }
 .w3layouts-banner-top.t2{
     background: url(../contant/images/banner/banner2.jpg) no-repeat 0px 0px;
