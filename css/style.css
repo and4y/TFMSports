@@ -644,7 +644,7 @@ div#horizontalTab {
 .team-grids {
     border: 1px solid #fff;
     padding:6em 2em;
-    width: 22%;
+    width: 22.5%;
     position: relative;
     transition: .5s all;
 	-webkit-transition: .5s all;
@@ -668,7 +668,7 @@ div#horizontalTab {
     color: #f39c12;
 }
 .team-grids h5  span{
-  color: #fff;
+  color: #13a538;
 }
 .team-grids p {
     margin-top: 1em;
@@ -684,7 +684,7 @@ div#horizontalTab {
     top: 0;
     left: 0;
     display: block;
-    background-color: #fff ;
+    background-color: #00AD8A ;
     width: 100%;
     height: 100%;
 	transition: .7s all;
