@@ -19,7 +19,7 @@
 	max-height: 360px;
 	width: 48%;
 	height: auto;
-	background: #3085a3;
+	background: #fff;
 	text-align: center;
 	cursor: pointer;
 }
@@ -91,7 +91,7 @@
 /*---------------*/
 
 figure.effect-julia {
-	background: #2f3238;
+	background: #fff;
 }
 
 figure.effect-julia img {

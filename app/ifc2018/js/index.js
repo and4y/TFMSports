@@ -1,10 +1,7 @@
 var ringer = {
   countdown_to: "03/22/2018 16:30:00",
   rings: {
-    'DAYS': { 
-      s: 86400000, // mseconds in a day,
-      max: 365
-    },
+
     'HOURS': {
       s: 3600000, // mseconds per hour,
       max: 24
@@ -22,10 +19,10 @@ var ringer = {
       max: 100
     }
    },
-  r_count: 5,
+  r_count: 3,
   r_spacing: 10, // px
-  r_size: 100, // px
-  r_thickness: 5, // px
+  r_size: 80, // px
+  r_thickness: 3, // px
   update_interval: 11, // ms
     
     
@@ -101,7 +98,7 @@ var ringer = {
     // label
     $r.ctx.fillStyle = "#000000";
    
-    $r.ctx.font = '12px Helvetica';
+    $r.ctx.font = '9px Helvetica';
     $r.ctx.fillText(label, 0, 23);
     $r.ctx.fillText(label, 0, 23);   
     
