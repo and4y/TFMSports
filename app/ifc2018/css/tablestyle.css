@@ -1,0 +1,27 @@
+
+th{
+	background-color: black;
+	color: #ffe221;
+	  padding: 10px;
+
+}
+
+table, td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 10px;
+}
+tr:hover{
+  background-color:#ffb321;
+}
+.even{
+  margin-top:20px;
+  text-align:center;
+  }
+.odd{
+  margin-top:20px;
+  }
+caption{
+  font-size: 20px;
+  color:#f2a14f;
+}
